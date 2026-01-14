@@ -71,6 +71,17 @@ jobs:
             arch: amd64
             extension: ""
 
+          # Android builds
+          - os: android
+            arch: arm64
+            extension: ""
+          - os: android
+            arch: arm
+            extension: ""
+          - os: android
+            arch: amd64
+            extension: ""
+
     steps:
       - uses: actions/checkout@v3
 
